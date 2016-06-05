@@ -18,4 +18,4 @@ It can be installed as a manually in developer mode.
 
 ## Use:
 
-Click on the black star icon in the menubar to see all fonts used on the website you are viewing.
+Click on the black star icon in the toolbar to see all fonts used on the website you are viewing.
