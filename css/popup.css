@@ -1,0 +1,41 @@
+
+
+body {
+	width: 400px;
+	min-height: 400px;
+}
+
+.raw-src {
+	color:#000;
+	margin: 5px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #BBB;
+
+}
+
+.link {
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+	background-color: #888;
+	color: white;
+}
+.link:hover {
+	background-color: #88F;
+	cursor: pointer;
+}
+
+h2 div.link {
+	font-size: 10px;
+	background-color: #FFF;
+	color:#888;
+}
+
+h2 div.link:hover  {
+	color: #FFF;
+	background-color: #000;
+}

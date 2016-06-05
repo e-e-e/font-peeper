@@ -1,0 +1,24 @@
+{
+	"manifest_version":2,
+	"name": "font peeper",
+	"description":"no description",
+	"version":"0.0.1",
+	"browser_action": {
+		"default_icon":"icon.png",
+		"default_popup":"popup.html"
+	},
+	"permissions": [
+		"downloads",
+    "activeTab",
+    "<all_urls>","webRequest","webRequestBlocking",
+    "https://ajax.googleapis.com/"
+  ],
+  "content_scripts":[
+  	{
+  		"matches":["<all_urls>"],
+  		"js": ["js/lib/jquery-1.11.3.js", "js/lib/URI.js","js/content.js"]
+  	}
+  ],
+  "background": {
+  }
+}
